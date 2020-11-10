@@ -1,0 +1,22 @@
+{
+  "name": "chatserviceapp",
+  "version": "1.0.0",
+  "description": "UA Connected Fitness Chat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.15.0"
+  },
+  "author": "Josh Grajeda",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "expressjs": "^1.0.1",
+    "nodemon": "^2.0.2",
+    "redis": "^2.8.0",
+    "socket.io": "^2.3.0"
+  }
+}
